@@ -8,7 +8,7 @@ Simple type the following into the terminal:
 npx pipcorn https://www.youtube.com/watch?v=jo_B4LTHi3I
 ```
 
-![pipcorn.gif](pipcorn.gif)
+![Demo](https://github.com/JonnyBurger/pipcorn/blob/master/pipcorn.gif?raw=true)
 
 It uses [ytdl-core](https://www.npmjs.com/package/ytdl-core) and [open-pip](https://www.npmjs.com/package/open-pip) under the hood. However they are webpacked so that the program installs fast.
 

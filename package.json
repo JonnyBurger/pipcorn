@@ -1,6 +1,6 @@
 {
   "name": "pipcorn",
-  "version": "0.0.12",
+  "version": "1.0.0",
   "description": "Watch YouTube videos in picture-in-picture",
   "bin": "bundled/bundle.js",
   "files": [
