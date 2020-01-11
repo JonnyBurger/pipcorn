@@ -1,0 +1,32 @@
+{
+  "name": "pipcorn",
+  "version": "0.0.12",
+  "description": "Watch YouTube videos in picture-in-picture",
+  "bin": "bundled/bundle.js",
+  "files": [
+    "bundled/bundle.js",
+    "bundled/pip.app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh make.sh",
+    "prepublish": "npm run build && node package-hack",
+    "postpublish": "node package-hack revert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnyBurger/pipcorn.git"
+  },
+  "keywords": [
+    "picture",
+    "in",
+    "picture",
+    "youtube"
+  ],
+  "author": "Jonny Burger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonnyBurger/pipcorn/issues"
+  },
+  "homepage": "https://github.com/JonnyBurger/pipcorn#readme"
+}
